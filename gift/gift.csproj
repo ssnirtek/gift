@@ -83,6 +83,12 @@
     <Compile Include="SeeGift.Designer.cs">
       <DependentUpon>SeeGift.cs</DependentUpon>
     </Compile>
+    <Compile Include="SeenForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SeenForm.Designer.cs">
+      <DependentUpon>SeenForm.cs</DependentUpon>
+    </Compile>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>
@@ -106,6 +112,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="SeeGift.resx">
       <DependentUpon>SeeGift.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SeenForm.resx">
+      <DependentUpon>SeenForm.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="giftDataSet.xsc">
       <DependentUpon>giftDataSet.xsd</DependentUpon>

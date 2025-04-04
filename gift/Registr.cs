@@ -70,6 +70,10 @@ namespace gift
                 txtEmail.Clear();
                 txtFio.Clear();
                 dtpBirthDate.Value = DateTime.Now;
+
+                MenuForm menuForm = new MenuForm(); // создаем экземпляр формы MenuForm
+                menuForm.Show(); // показываем форму MenuForm
+                this.Hide();
             }
             catch (Exception ex)
             {

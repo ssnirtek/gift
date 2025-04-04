@@ -7,6 +7,8 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.Data.SqlClient;
+
 
 namespace gift
 {
@@ -19,9 +21,14 @@ namespace gift
 
         private void button1_Click(object sender, EventArgs e)
         {
-            SeeGift seeGift = new SeeGift();
-            seeGift.Show();
+            SeenForm seenForm = new SeenForm();
+            seenForm.Show();
             this.Hide();
+        }
+
+        private void MenuForm_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }
